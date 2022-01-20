@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "plazy-store": {
+      "hosting": {
+        "ventas": [
+          "plazy-store"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "plazy-store"
+  }
+}
