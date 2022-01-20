@@ -14,6 +14,10 @@ import { TableComponent } from './components/table/table.component';
 import { ProductsListComponent } from './components/products-list/products-list.component';
 import { ProductEditComponent } from './components/product-edit/product-edit.component';
 
+import { AngularFireStorageModule } from '@angular/fire/compat/storage';
+
+
+
 
 
 @NgModule({
@@ -23,6 +27,7 @@ import { ProductEditComponent } from './components/product-edit/product-edit.com
     AdminRoutingModule,
     ReactiveFormsModule,
     MaterialModule,
+    AngularFireStorageModule,
   ]
 })
 export class AdminModule { }
