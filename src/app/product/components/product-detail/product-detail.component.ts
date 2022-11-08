@@ -37,7 +37,9 @@ export class ProductDetailComponent implements OnInit {
     const newProduct: Product = {
       id: '222',
       title: 'nuevo desde angular',
-      image: 'assets/images/banner-1.jpg',
+      category: {
+        image: 'assets/images/banner-1.jpg',
+      },
       price: 3000,
       description: 'nuevo producto'
     };
